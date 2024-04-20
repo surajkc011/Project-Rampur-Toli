@@ -157,3 +157,66 @@ i{
     display: none;
 }
 
+.search-form{
+    position: fixed;
+    top:0;
+    left:0;
+    height: 100%;
+    width:100%;
+    background:rgba(0,0,0,0.8);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    z-index:10000;
+    transform: translateY(-110%);
+}
+
+.search-form.active{
+    transform: translateY(0%);
+}
+
+#close-search{
+    position: absolute;
+    top:1.5rem;
+    right:2.5rem;
+    cursor:pointer;
+    color:white;
+    font-size:5rem;
+}
+
+#close-search:hover{
+    color:green;
+}
+
+form{
+    width:70rem;
+    margin: 0 2rem;
+    padding-bottom: 2rem;
+    border-bottom: .2rem solid white;
+    display:flex;
+    align-items: center;
+}
+
+form input{
+    width:100%;
+    font-size: 2rem;
+    color:white;
+    text-transform: none;
+    background: none;
+    padding-right: 2rem;
+}
+
+form input::placeholder{
+    color:#aaa;
+}
+
+form label{
+    font-size: 3rem;
+    cursor:pointer;
+    color:white;
+}
+
+form label:hover{
+    color:green;
+}
+
