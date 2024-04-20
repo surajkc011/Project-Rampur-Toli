@@ -95,3 +95,65 @@ section{
 .msg{
     width: 60%;
 }
+.input-fields .input,
+.msg textarea{
+    margin: 10px 0;
+    background: transparent;
+    border: 0px;
+    border-bottom: 2px solid #5f66618f;
+    padding: 10px;
+    color: black;
+    width: 100%;
+}
+
+.msg textarea{
+    height: 192px;
+}
+
+.msg .btn1{
+    margin-top: 1rem;
+    display: inline-block;
+    border:0.2rem solid black;
+    color:black;
+    cursor:pointer;
+    background:none;
+    font-size:1.7rem;
+    padding:1rem 3rem;
+}
+
+i{
+    color:green;
+}
+
+.header .navbar a{
+    margin-left: 2rem;
+    font-size: 1.7rem;
+    color: black;
+}
+
+.header .navbar a:hover{
+    color: green;
+}
+
+.header .navbar #nav-close{
+    font-size: 5rem;
+    cursor: pointer;
+    color: black;
+    display: none;
+}
+
+.header .icons a, .header .icons div{
+    font-size: 2.5rem;
+    margin-left: 2rem;
+    cursor:pointer;
+    color:black;
+}
+
+.header.icons a:hover, .header.icons div:hover{
+    color: green;
+}
+
+.header #menu-btn{
+    display: none;
+}
+
